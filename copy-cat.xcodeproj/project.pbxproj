@@ -11,6 +11,8 @@
 		78343AA52C1F51D4007ACECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78343AA42C1F51D4007ACECC /* ContentView.swift */; };
 		78343AA72C1F51D4007ACECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78343AA62C1F51D4007ACECC /* Assets.xcassets */; };
 		78343AAA2C1F51D4007ACECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78343AA92C1F51D4007ACECC /* Preview Assets.xcassets */; };
+		78343AB32C1F52B6007ACECC /* CopyCatHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78343AB22C1F52B6007ACECC /* CopyCatHistory.swift */; };
+		78343AB62C1F5323007ACECC /* CopyCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78343AB52C1F5323007ACECC /* CopyCatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		78343AA62C1F51D4007ACECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78343AA92C1F51D4007ACECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78343AAB2C1F51D4007ACECC /* copy_cat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = copy_cat.entitlements; sourceTree = "<group>"; };
+		78343AB22C1F52B6007ACECC /* CopyCatHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyCatHistory.swift; sourceTree = "<group>"; };
+		78343AB52C1F5323007ACECC /* CopyCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyCatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		78343AA12C1F51D4007ACECC /* copy-cat */ = {
 			isa = PBXGroup;
 			children = (
+				78343AB72C1F535E007ACECC /* View */,
+				78343AB42C1F530C007ACECC /* ViewModel */,
+				78343AB12C1F5264007ACECC /* Models */,
 				78343AA22C1F51D4007ACECC /* copy_catApp.swift */,
-				78343AA42C1F51D4007ACECC /* ContentView.swift */,
 				78343AA62C1F51D4007ACECC /* Assets.xcassets */,
 				78343AAB2C1F51D4007ACECC /* copy_cat.entitlements */,
 				78343AA82C1F51D4007ACECC /* Preview Content */,
@@ -67,6 +73,30 @@
 				78343AA92C1F51D4007ACECC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78343AB12C1F5264007ACECC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78343AB22C1F52B6007ACECC /* CopyCatHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78343AB42C1F530C007ACECC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78343AB52C1F5323007ACECC /* CopyCatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78343AB72C1F535E007ACECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78343AA42C1F51D4007ACECC /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78343AB62C1F5323007ACECC /* CopyCatViewModel.swift in Sources */,
 				78343AA52C1F51D4007ACECC /* ContentView.swift in Sources */,
+				78343AB32C1F52B6007ACECC /* CopyCatHistory.swift in Sources */,
 				78343AA32C1F51D4007ACECC /* copy_catApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
