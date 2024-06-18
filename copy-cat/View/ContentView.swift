@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             HStack {
                 Spacer()
-                Text("Copy Cat 🐱")
+                Text("Molly 🐱")
                     .font(.headline)
                     .padding(.horizontal)
                 Spacer()
